@@ -9,11 +9,11 @@ bti-fix-recursive.py --------- Same as above but also look down to 9 subdirector
 
 mkdd_checkpoint_swap.py ------ Given a bol file, it swap all left and right coordinates of all checkpoints between the two offsets entered
 
-patcher-fix.py --------------- Browse from your current directory to max 9 subdirectories, and rename all file types used in custom track to their name in Yoshi2's patcher
+patcher-fix.py --------------- Browse from your current directory to max 9 subdirectories, and rename all file types used in custom track to their name in <a href="https://github.com/RenolY2/mkdd-track-patcher/releases">Yoshi2's patcher</a>
 
 
 .
-### The scripts below need Wiimms SZS Tools
+### The scripts below need <a href="https://szs.wiimm.de/download.html#vers">Wiimms SZS Tools</a>
 
 BTI.py -------- Drag and Drop some png files into this script and it will convert all of them to BTI.CMPR
 
