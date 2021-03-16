@@ -1,6 +1,6 @@
 import os
 
-bti_name, bti = [0], [0]
+bti_name, bti, wrap_s, wrap_t = [0], [0], [0], [0]
 name, position, = [], []
 add_png = keep = filetype = file = header = 0
 colourenc = ['I4', 'I8', 'IA4', 'IA8', 'RGB565', 'RGB5A3', 'RGBA8', 0, 'CI4', 'CI8', 'CI14x2', 0, 0, 0, 'CMPR']
@@ -88,6 +88,9 @@ with open(file, 'r+b') as arc:  # arc = archive
         if header == b'TEX1':
             current_bti_name = ''
             count += 1
+            arc.seek(z + 38)
+            s_wrap = arc.read(1)[0]
+            t_wrap = arc.read(1)[0]
             arc.seek(z + 12)
             letter = arc.read(1)
             while letter != b'\x00':
@@ -95,6 +98,8 @@ with open(file, 'r+b') as arc:  # arc = archive
                 letter = arc.read(1)
             bti_name.append(current_bti_name)
             bti.append(z + 32)  # add a bti file offset to the texture list
+            wrap_s.append(s_wrap)
+            wrap_t.append(t_wrap)
     cmd_list = []
     if mode == "4":
         dump(file, count, size)
@@ -155,6 +160,8 @@ with open(file, 'r+b') as arc:  # arc = archive
             dim_tex = texture.read(4)  # 2 bytes integer for width then height
             arc.seek(bti[pos] + 2)
             arc_tex_dim = arc.read(4)
+            tex[6] = wrap_s[i]
+            tex[7] = wrap_t[i]
         if dim_tex != arc_tex_dim:  # don't replace vanilla texture if the custom one doesn't have the same size
             input(f'{picture} is {dim_tex[0] * 256 + dim_tex[1]}x{dim_tex[2] * 256 + dim_tex[3]} while {file} texture is {arc_tex_dim[0] * 256 + arc_tex_dim[1]}x{arc_tex_dim[2] * 256 + arc_tex_dim[3]}\nDid you learned maths ???\n\nPress enter to replace all other textures.\n')
             continue
