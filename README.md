@@ -13,7 +13,8 @@ patcher-fix.py --------------- Browse from your current directory to max 9 subdi
 print bti format.py ---------- Show info from all bti files in current directory
 
 
-## The scripts below need the software Wiimms SZS Tools
+
+### The scripts below need the software Wiimms SZS Tools
 
 BTI.py -------- Drag and Drop some png files into this script and it will convert all of them to BTI.CMPR
 
