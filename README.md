@@ -1,5 +1,7 @@
 # MKDD
-all my pyhon scripts I programmed to mod Mario Kart Double Dash
+all pyhon scripts I programmed to mod Mario Kart Double Dash
+
+bti info.py ---------- Show info from all bti files in current directory
 
 bti mkdd custom track fix.py - Fix all files ending with extension .bti in current directory (editing wrapping to "clamp" remove corrupted looking on read console for 2d layout bti)
 bti-fix-recursive.py --------- Same as above but also look down to 9 subdirectories and autodetect bti files (no need to have .bti extension to ne recognizable)
@@ -7,8 +9,6 @@ bti-fix-recursive.py --------- Same as above but also look down to 9 subdirector
 mkdd_checkpoint_swap.py ------ Given a bol file, it swap all left and right coordinates of all checkpoints between the two offsets entered
 
 patcher-fix.py --------------- Browse from your current directory to max 9 subdirectories, and rename all file types used in custom track to their name in Yoshi2's patcher
-
-print bti format.py ---------- Show info from all bti files in current directory
 
 
 .
