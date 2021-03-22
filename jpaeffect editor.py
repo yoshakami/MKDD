@@ -12,21 +12,7 @@ def message():
     print("count the texture position by dumping them.\n\nthe number can be negative if you start counting by the bottom\n")
 
 
-def tex_list(file_jpa):
-    print("Texture Name List :")
-    with open(file_jpa, 'rb') as jpa:
-        for n in range(1, len(bti)):
-            jpa.seek((bti[n]) + 2)
-            tex_dim = jpa.read(4)
-            print(f'{n} - ({tex_dim[0] * 256 + tex_dim[1]}x{tex_dim[2] * 256 + tex_dim[3]}) - {bti_name[n]}')
-            user_continue = input('press enter to use default option or\n- type 6 to replace all bti by all png in ./jpaeffect Dumped Textures/png\n- type anything else to exit\n\nYour choice : ')
-            if user_continue == "6":
-                repack(jpa_file)
-            elif user_continue != "":
-                exit()
-
-
-def dump(jpa_file, number, filesize):
+def dump(jpa_file, number, filesize):  # option choice 4
     if not os.path.exists("jpaeffect Dumped Textures"):
         os.mkdir("jpaeffect Dumped Textures")
 
@@ -47,6 +33,7 @@ def dump(jpa_file, number, filesize):
     for x in range(1, len(bti)):
         os.system(f'wimgt decode "{x} - {bti_name[x]}.bti" -d "./png/{x} - {bti_name[x]}.png" -o')
     user_continue = input('press enter to use default option or :\n- type 5 to view a list of all bti names\n- type 6 to replace all bti by all png in ./jpaeffect Dumped Textures/png\n- type anything else to exit\n\nYour choice : ')
+    os.chdir('../')
     if user_continue == "5":
         tex_list(jpa_file)
     elif user_continue == "6":
@@ -55,7 +42,21 @@ def dump(jpa_file, number, filesize):
         exit()
 
 
-def repack(jpa_file):
+def tex_list(file_jpa):  # option choice 5
+    print("Texture Name List :")
+    with open(file_jpa, 'rb') as jpa:
+        for n in range(1, len(bti)):
+            jpa.seek((bti[n]) + 2)
+            tex_dim = jpa.read(4)
+            print(f'{n} - ({tex_dim[0] * 256 + tex_dim[1]}x{tex_dim[2] * 256 + tex_dim[3]}) - {bti_name[n]}')
+            user_continue = input('\nhere the following actions you can do:\n-press enter to use default option\n- type 6 to replace all bti by all png in ./jpaeffect Dumped Textures/png\n- type anything else to exit\n\nYour choice : ')
+            if user_continue == "6":
+                repack(file_jpa)
+            elif user_continue != "":
+                exit()
+
+
+def repack(jpa_file):  # option choice 6
     c = 0
     with open(jpa_file, 'r+b') as jpa:
         #  print(os.listdir('./jpaeffect Dumped Textures/png'))
@@ -100,7 +101,16 @@ def repack(jpa_file):
                 continue
             jpa.seek(bti[emplacement])
             jpa.write(bti_content)  # custom texture data
-    print("done !")
+
+    for wimgt_command in cmd_list:  # deletes encoded png created by wimgt
+        if wimgt_command.startswith("del "):
+            continue
+        #  print(wimgt_command)
+        name_bti = wimgt_command.split('wimgt encode ')[1]
+        name_bti = name_bti.split('.png')[0].replace("/", "\\")
+        #  print(f'del {name_bti}"')
+        os.system(f'del {name_bti}"')
+    input("\ndone !\n\npress enter to exit...")
     exit()
 
     command_list = cmd_list[1:]
@@ -123,14 +133,13 @@ for file in os.listdir('./'):
         break
 
 if header != b"JPA":  # the first "for" loop can ends after browsing a complete directory without finding any jpa file.
-    keep2 = input(
-        'no jpa file found in current directory, type type 2 to continue and keep the encoded textures when the program ends.\n')
+    keep2 = input('no jpa file found in current directory, type type 2 to continue and keep the encoded textures when the program ends.\n')
     if keep2 == 2:
         keep = True
     mode = 0
 
 if mode != 0:
-    mode = input(f"\nreplacing in {file}\n\npress enter to continue (don't keep encoded bti) or\n- type 1 if that's not the file you want\n- type 2 to continue and keep the encoded textures when the program ends\n- type 3 if that's not the file you want and you want to keep the encoded textures\n- type 4 to dump all bti images in the jpa file\n- type 5 to view a list of all bti names\n- type 6 to replace all bti by all png in ./jpaeffect Dumped Textures/png\n\nYour choice : ")
+    mode = input(f"\nreplacing in {file}\n\nhere the following actions you can do:\n- press enter to continue (don't keep encoded bti)\n- type 1 if that's not the file you want\n- type 2 to continue and keep the encoded textures when the program ends\n- type 3 if that's not the file you want and you want to keep the encoded textures\n- type 4 to dump all bti images in the jpa file\n- type 5 to view a list of all bti names\n- type 6 to replace all bti by all png in ./jpaeffect Dumped Textures/png\n\nYour choice : ")
 
 if mode in ['2', '3']:  # keep encoded textures
     keep = True
@@ -249,6 +258,6 @@ if not keep:
         if line.startswith("del "):
             continue
         texname = line.split('wimgt encode ')[1]
-        texname = texname.split('.png')[0]
+        texname = texname.split('.png')[0].lstrip('"')
         os.system(f'del "{texname}"')
 print("done !")
