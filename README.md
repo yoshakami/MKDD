@@ -1,6 +1,6 @@
 # MKDD
 all pyhon scripts I programmed to mod Mario Kart Double Dash
-you can download exe versions in the exe folder
+you can download exe versions in the exe folder, but be sure to have python39.dll alongside them
 
 bti info.py ---------- Show info from all bti files in current directory
 
