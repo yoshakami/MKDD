@@ -1,5 +1,6 @@
 # MKDD
 all pyhon scripts I programmed to mod Mario Kart Double Dash
+you can download exe versions in the exe folder
 
 bti info.py ---------- Show info from all bti files in current directory
 
@@ -20,7 +21,12 @@ BTI.py -------- Drag and Drop some png files into this script and it will conver
 PNG.py -------- Drag and Drop X bti to recieve X png
 
 jpaeffect editor.py --- A Command Line Script used to manipulate, dump, edit, replace, or view all bti images inside /MRAM.arc/effect/jpaeffect.jpc  remember to make a copy of your vanilla file if you're going to replace some bti as it will overwrite on the file.
-
+the easiest way to use it would be : copy jpaeffect.jpc in the same directory as the script, then launch it
+-choose mode 4 to dump all bti
+-press enter to convert all dumped bti to png
+-navigate to ./jpaeffect Dumped Textures/png
+-edit the png files you want to edit (without resizing them)
+-choose mode 6 to convert back png to bti with wiimms szs tools and replace them into the file.
 
 the alt folder contains not working - alternative versions for the scripts going into subfolders.
 the recursive function didn't worked, the one with blob was missing some rename conditions, and I made some other attempts whose ended up not working.
