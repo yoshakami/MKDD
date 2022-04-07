@@ -1,6 +1,7 @@
 # MKDD
 all pyhon scripts I programmed to mod Mario Kart Double Dash
 you can download exe versions in the exe folder, but be sure to have python39.dll alongside them
+
 edit: those exe were .py files compiled with nuitka, and may be unstable/won't run at all without python.... better run from source code
 
 bti info.py ---------- Show info from all bti files in current directory
