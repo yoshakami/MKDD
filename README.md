@@ -1,5 +1,5 @@
 # MKDD
-all pyhon scripts I programmed to mod Mario Kart Double Dash
+all pyhon scripts and C# Launchers I programmed to mod Mario Kart Double Dash
 
 you can use the Launchers executables to assign bmd/bco/dae/obj/bol/bti files to various applications used to mod mario kart double dash
 the apps are just launchers, they contain no app content, you need to get them separately.
