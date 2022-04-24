@@ -1,0 +1,40 @@
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd_bco.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd_bco.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\bin\x64\Release\bti to png.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\bin\x64\Release\bti to png.exe
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\bin\x64\Release\bti to png.pdb
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\mkdd_bti.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\bti to png.exe
+X:\yoshi\3D Objects\C#\mkdd-bti\mkdd-bti\obj\x64\Release\bti to png.pdb
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\bin\x64\Release\bti to png.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\bin\x64\Release\bti to png.exe
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\bin\x64\Release\bti to png.pdb
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\mkdd_bti.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\bti to png.exe
+X:\yoshi\3D Objects\C#\mkdd-bti - config\mkdd-bti-config\obj\x64\Release\bti to png.pdb

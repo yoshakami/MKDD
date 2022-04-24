@@ -1,0 +1,20 @@
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd_bco.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\obj\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\x64\Release\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd_bco.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\x64\Release\mkdd bco converter.pdb
