@@ -1,5 +1,12 @@
 # MKDD
 all pyhon scripts I programmed to mod Mario Kart Double Dash
+
+you can use the Launchers executables to assign bmd/bco/dae/obj/bol/bti files to various applications used to mod mario kart double dash
+the apps are just launchers, they contain no app content, you need to get them separately.
+you will also need to edit the .txt file created by the launcher if it can't find python executable or the .py file location (put the launcher in the app directory)
+I tried to make a smart detection of python's base path, but if you installed python elsewhere it won't detect it, you'll have to put it manually in the .txt file
+
+
 you can download exe versions in the exe folder, but be sure to have python39.dll alongside them
 
 edit: those exe were .py files compiled with nuitka, and may be unstable/won't run at all without python.... better run from source code
