@@ -1,0 +1,20 @@
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\Debug\mkdd bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\Debug\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\Debug\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd_bco.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\obj\Debug\mkdd bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\bin\Debug\mkdd obj to bco converter.exe.config
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\bin\Debug\mkdd obj to bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\bin\Debug\mkdd obj to bco converter.pdb
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd-bol-editor.csproj.AssemblyReference.cache
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd-bol-editor.csproj.SuggestedBindingRedirects.cache
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd_obj.Properties.Resources.resources
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd-bol-editor.csproj.GenerateResource.cache
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd-bol-editor.csproj.CoreCompileInputs.cache
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd obj to bco converter.exe
+X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\obj\Debug\mkdd obj to bco converter.pdb

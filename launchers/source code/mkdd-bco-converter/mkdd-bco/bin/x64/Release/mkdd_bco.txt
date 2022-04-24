@@ -1,0 +1,2 @@
+C:\Users\yoshi\AppData\Local\Programs\Python\Python39\python.exe
+C:\Users\yoshi\Documents\MKDD\bco (kcl)\mkdd-collision-reader.py

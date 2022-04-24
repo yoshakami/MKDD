@@ -1,2 +1,0 @@
-C:\Users\yoshi\AppData\Local\Programs\Python\Python39\python.exe
-X:\yoshi\3D Objects\C#\mkdd-obj-converter\mkdd-obj\bin\x64\Release\mkdd-collision-creator.py

@@ -1,2 +1,0 @@
-C:\Users\yoshi\AppData\Local\Programs\Python\Python39\python.exe
-X:\yoshi\3D Objects\C#\mkdd-bco-converter\mkdd-bco\bin\Debug\mkdd-collision-reader.py

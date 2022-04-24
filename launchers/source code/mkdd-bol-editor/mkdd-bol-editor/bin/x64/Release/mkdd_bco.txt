@@ -1,0 +1,2 @@
+C:\Users\yoshi\AppData\Local\Programs\Python\Python39\python.exe
+X:\yoshi\3D Objects\C#\mkdd-bol-editor\mkdd-bol-editor\bin\x64\Release\mkdd-collision-reader.py

@@ -1,2 +1,0 @@
-C:\Users\yoshi\AppData\Local\Programs\Python\Python39\python.exe
-path to mkdd_editor.py
