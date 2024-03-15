@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace mkdd_dae.Properties {
+namespace mkdd_fbx.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

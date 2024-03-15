@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace mkdd_dae
+namespace mkdd_fbx
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace mkdd_dae
             string execPath = AppDomain.CurrentDomain.BaseDirectory;
             for (int i = 1; i < args.Length; i++)
             {
-                if (System.IO.File.Exists(args[i]) && args[i].Substring(args[i].Length - 4) == ".dae")
+                if (System.IO.File.Exists(args[i]) && args[i].Substring(args[i].Length - 4) == ".fbx")
                 {
                     bmd = args[i];
                 }
@@ -38,15 +38,15 @@ namespace mkdd_dae
                     SuperBMD_args += " -x \"" + file[i] + "\"";
                 }
             }
-            if (!System.IO.File.Exists(execPath + "mkdd_dae.txt"))  // if the config file doesn't exists
+            if (!System.IO.File.Exists(execPath + "mkdd_bmd.txt"))  // if the config file doesn't exists
             {
                 string[] data = { execPath + "SuperBMD.exe" };
-                System.IO.File.WriteAllLines(execPath + "mkdd_dae.txt", data);
+                System.IO.File.WriteAllLines(execPath + "mkdd_bmd.txt", data);
 
             }
             else  // config file exists
             {
-                string[] lines = System.IO.File.ReadAllLines(execPath + "mkdd_dae.txt");  // each line of the config file is in the lines array
+                string[] lines = System.IO.File.ReadAllLines(execPath + "mkdd_bmd.txt");  // each line of the config file is in the lines array
                 if (lines != null)
                 {
                     System.Diagnostics.Process p = new System.Diagnostics.Process();
